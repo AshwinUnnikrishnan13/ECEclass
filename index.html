@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <body bgcolor="Pink">
+        Sample Form creation
+        <form>
+            <fieldset style="background-color: aqua;">
+                <legend>Personal Info</legend>
+            <lable for="fname">enter first name:</lable>
+            <input type="text" id="fname" name="fname"/>
+            <br>
+            <lable for="lname">enter last name:</lable>
+            <input type="text" id="lname" name="lname"/>
+            <br>
+            enter address:
+            <textarea rows="3" cols="10"></textarea>
+            <br>
+            <!--input type="button" id="button1" value="submit"/!-->
+Select your gender:<br>
+            <input type="radio" id="gender" name="gender" value="Male"/>Male
+            <br>
+            <input type="radio" id="gender" name="gender" value="Female"/>Female
+            <br>
+            </fieldset>
+            <fieldset  style="background-color: blueviolet;">
+                <legend>Academic Data</legend>
+                Select your Programming Language:<br>
+                <input type="checkbox" id="Java" name="Java" value="code"/>Java
+                <br>
+                <input type="checkbox" id="ADP" name="ADP" value="code"/>ADP
+                <br>
+                Choose the CLG u prefer:
+                <input list="college">
+                <datalist id="college">
+                    <option value="Amrita Univ">
+                    <option value="Anna Univ">
+                    <option value=" Vit Univ">
+                    <option value="Srm Univ">
+                </datalist>
+                <br>
+                Choose ur Current yr:
+                <select name="year" id="year">
+                    <option value="I"> I year</option>
+                    <option value="II"> II year</option>
+                    <option value="III"> III year</option>
+                    <option value="Iv"> IV year</option>
+                </select>
+                <br>
+                enter your Password:
+                <input type="password" id="password" name="pass"/>
+                <br>
+                enter proper Mail:
+                <input type="Email" id="Email" name="mail"/>
+
+            </fieldset>
+            <fieldset style="background-color: bisque;">
+                <legend>Different Techniques</legend>
+               <label> find the Range:</label><br>
+            <input type="range" id="no." name="no."/>
+            <br>
+            <label> choose ur colour:</label><br>
+            <input type="color" id="c1" name="c1"/>
+            <br>
+            <label>insert ur file</label><br>
+            <input type="file" id="f1" name="f1"/>
+            <br>
+            <input type="date" id="today" name="this day"/>
+            <br>
+            To insert the audio file<br>
+            <audio controls>
+                <source src="oghwdpodjdifdojjwjocjjussgksh" type="hgvchyc.mp4">
+            </audio>
+            <br>
+            <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
